@@ -29,6 +29,10 @@ figure{
     float: left;
 }
 
+section{
+    overflow-x: hidden;
+}
+
 header{
     background: #000;
     height: 80px;
