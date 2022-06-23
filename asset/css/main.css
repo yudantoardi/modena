@@ -8,6 +8,10 @@
     padding-top: 80px;
 }
 
+.is-rtl{
+    flex-direction: row-reverse;
+}
+
 header,
 section,
 footer,
@@ -269,8 +273,86 @@ footer p{
     top: 50%;
 }
 
-@media screen and (min-width: 1720px){
+@media only screen and (min-width: 1720px){
     .container{
         max-width: 1680px;
     }
 }
+@media only screen and (min-width: 1366px){
+    .container{
+        max-width: 1366px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    header{
+        height: 60px;
+        text-align: center;
+    }
+    header .logo{
+        margin-top: 10px;
+    }
+    .main-nav{
+        position: fixed;
+        top: 60px;
+        left: 0;
+        background: #000;
+        border-top: 1px solid #fff;
+        text-align: center;
+    }
+    .main-nav a{
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero p{
+        font-size: 16px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 0;
+    }
+    .btn{
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+
+    .promo{
+        padding: 60px 0;
+    }
+    .promo img{
+        width: 60%;
+    }
+    .promo h3{
+        font-size: 38px;
+    }
+    .promo h4{
+        font-size: 20px;
+    }
+    .promo p,
+    .promo h5,
+    .promo ul li{
+        font-size: 16px;
+    }
+    p.lg-text{
+        font-size: 24px;
+    }
+
+    footer{
+        height: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+    footer .has-text-right{
+        text-align: center !important;
+    }
+}
+
