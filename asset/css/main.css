@@ -359,5 +359,26 @@ footer p{
     footer .has-text-right{
         text-align: center !important;
     }
+
+    .popup{
+        height: auto;
+        top: 50px;
+        transform: translate(-50%,0);
+    }
+    .overlay{
+        overflow-y: auto;
+    }
+    .overlay.show .popup{
+        top: 20px;
+    }
+    .popup .pic{
+        width: 100%;
+        height: 200px;
+    }
+    .popup form{
+        width: 100%;
+        padding: 40px 20px;
+        overflow-y: auto;
+    }
 }
 
