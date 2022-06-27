@@ -94,6 +94,10 @@ header{
     transition: all ease-out 0.3s;
     -moz-transition: all ease-out 0.3s;
 }
+.btn.btn-sm{
+    padding: 8px;
+    font-size: 16px;
+}
 .btn:hover{
     cursor: pointer;
 }
@@ -281,6 +285,19 @@ footer p{
 
 .for-mobile{
     display: none;
+}
+
+.thank-you{
+    padding-top: 100px;
+}
+.thank-you h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.thank-you p{
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 1720px){
